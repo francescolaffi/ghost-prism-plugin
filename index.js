@@ -54,6 +54,7 @@ function buildPrism(config) {
         }, '');
         fs.writeFileSync(dest, str);
     }
+    fs.mkdirSync(buildDir);
     concat(js, path.join(buildDir, 'prism.js'));
     concat(css, path.join(buildDir, 'prism.css'));
 }
