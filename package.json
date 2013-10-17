@@ -1,0 +1,12 @@
+{
+    "name": "ghost-prism-plugin",
+    "version": "0.1.0",
+    "description": "Ghost plugin for PrismJS syntax highlighting",
+    "author": "Francesco Laffi",
+    "license": "MIT",
+    "private": true,
+    "devDependencies": {
+        "underscore": "~1.5.2",
+        "bower": "~1.2.7"
+    }
+}
