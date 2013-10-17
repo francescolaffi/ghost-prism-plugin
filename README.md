@@ -1,6 +1,8 @@
 Prism Syntax Highlighting for Ghost
 ==================
 
+#### Demo: http://ghost.flweb.it/ghost-syntax-highlighting-with-prismjs/
+
 ## Installation
 **Tested with:** Ghost 0.3.2 
 
@@ -23,6 +25,8 @@ config = {
 ```
 
 - Restart Ghost
+
+It will compile the selected prism theme, plugins and langs together in a js and a css file when starting ghost, so config changes need ghost restart.
 
 ## Usage
 Prism syntax highlighting integrate nicely with the html ghost generates from markdown.
