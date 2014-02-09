@@ -1,7 +1,7 @@
 Prism Syntax Highlighting for Ghost
 ==================
 
-#### Demo: http://ghost.flweb.it/ghost-syntax-highlighting-with-prismjs/
+~~Demo: http://ghost.flweb.it/ghost-syntax-highlighting-with-prismjs/~~ (offline)
 
 Ghost is work-in-progress, especially the plugin API, so this is just an experiment, installation/updates are not super smooth, but I'm sure it will improve with time.
 
