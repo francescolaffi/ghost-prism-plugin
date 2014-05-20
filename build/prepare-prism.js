@@ -9,7 +9,7 @@ var https = require('https'),
 bower.commands.install(['prism#gh-pages'], {}, {directory: 'vendor'});
 
 // prepare info on prism themes, langs and plugins
-https.get('https://raw.github.com/LeaVerou/prism/gh-pages/components.js', function(res) {
+https.get('https://raw.githubusercontent.com/LeaVerou/prism/gh-pages/components.js', function(res) {
     var script = '';
 
     res.on('data', function (chunk) {
